@@ -1,22 +1,22 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'lua-mock'
-version = '1.0-2'
+version = '2.0-1'
 -- LuaDist source
 source = {
-  tag = "1.0-2",
+  tag = "2.0-1",
   url = "git://github.com/LuaDist-testing/lua-mock.git"
 }
 -- Original source
 -- source = {
 --     url = 'git://github.com/henry4k/lua-mock',
---     tag = 'v1.0-2'
+--     tag = 'v2.0-1'
 -- }
 description = {
     summary = 'Provides mocking utilities.',
     license = 'UNLICENCE',
     homepage = 'https://github.com/henry4k/lua-mock',
-    maintainer = 'henry4k'
+    maintainer = 'Henry Kielmann'
 }
 dependencies = {
     'lua >= 5.2'
@@ -24,9 +24,9 @@ dependencies = {
 build = {
     type = 'builtin',
     modules = {
-        ['test.mock.ValueMatcher']   = 'src/test/mock/ValueMatcher.lua',
-        ['test.mock.Mock']           = 'src/test/mock/Mock.lua',
-        ['test.mock.ProgrammableFn'] = 'src/test/mock/ProgrammableFn.lua',
-        ['test.mock.Spy']            = 'src/test/mock/Spy.lua'
+        ['test.mock.ValueMatcher']    = 'src/test/mock/ValueMatcher.lua',
+        ['test.mock.Mock']            = 'src/test/mock/Mock.lua',
+        ['test.mock.ProgrammableFn']  = 'src/test/mock/ProgrammableFn.lua',
+        ['test.mock.Spy']             = 'src/test/mock/Spy.lua'
     }
 }
